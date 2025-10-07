@@ -12,3 +12,10 @@ The program supports the following command-line format:
 
 ```bash
 ./crypto MODE ALGORITHM TEXT [KEY]
+### parameter
+| Argument    | Description                                                              |
+| ----------- | ------------------------------------------------------------------------ |
+| `MODE`      | `e` or `encrypt` for encryption, `d` or `decrypt` for decryption         |
+| `ALGORITHM` | `c` or `caesar` for Caesar cipher, `v` or `vigenere` for Vigenère cipher |
+| `TEXT`      | Uppercase message to encrypt/decrypt (A–Z only, no spaces)               |
+| `[KEY]`     | Only required for Vigenère cipher (e.g. `LEMON`)                         |
