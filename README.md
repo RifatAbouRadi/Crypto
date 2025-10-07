@@ -6,14 +6,6 @@ It was developed as part of a programming assignment focusing on **modular desig
 
 ---
 
-## 🧩 Overview
-
-The program supports the following command-line format:
-
-```bash
-./crypto MODE ALGORITHM TEXT [KEY]
----
-
 ### parameter
 | Argument    | Description                                                              |
 | ----------- | ------------------------------------------------------------------------ |
@@ -21,3 +13,13 @@ The program supports the following command-line format:
 | `ALGORITHM` | `c` or `caesar` for Caesar cipher, `v` or `vigenere` for Vigenère cipher |
 | `TEXT`      | Uppercase message to encrypt/decrypt (A–Z only, no spaces)               |
 | `[KEY]`     | Only required for Vigenère cipher (e.g. `LEMON`)                         |
+
+
+
+## 🧩 Overview
+
+The program supports the following command-line format:
+
+```bash
+./crypto MODE ALGORITHM TEXT [KEY]
+-
