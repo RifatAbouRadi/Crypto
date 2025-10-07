@@ -12,6 +12,8 @@ The program supports the following command-line format:
 
 ```bash
 ./crypto MODE ALGORITHM TEXT [KEY]
+---
+
 ### parameter
 | Argument    | Description                                                              |
 | ----------- | ------------------------------------------------------------------------ |
